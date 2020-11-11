@@ -3,6 +3,7 @@ from tflearn import input_data
 from tflearn import fully_connected
 from tflearn import DNN
 from tflearn import regression
+import tensorflow
 import nltk
 import numpy
 import random
@@ -35,6 +36,7 @@ def getModel(dataPath):
     data = getData(dataPath)
     output = data[3]
     training = data[2]
+    tensorflow.reset_default_graph()
 
     net = input_data(shape=[None, len(training[0])])
     net = fully_connected(net, 128)
