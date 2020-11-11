@@ -1,0 +1,94 @@
+[
+  {
+     "tag": "greeting",
+     "match": ["Hi", "How are you", "Hey", "Hello", "Good day", "Whats up","Hola"],
+     "response": ["Hello!", "Good to see you again!", "Hello there"]
+  },
+  {
+     "tag": "goodbye",
+     "match": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "see u","bye","I am going to sleep","going to bed","to bed"],
+     "response": ["Talk to you later", "Goodbye!"]
+  },
+  {
+     "tag": "nothing_just_depressed",
+     "match": ["it is nothing", "nothing", "just sad", "just depressed", "want to die", "I am fine"],
+     "response": ["Can you tell me more about it? Please trust me!"]
+  },
+  {
+     "tag": "nothing_just_stressed_or_sad",
+     "match": ["it is nothing", "nothing", "just sad", "just stressed", "want to die", "I am fine", "I'm sad", "am sad","stressed"],
+     "response": ["Can you tell me more about it? Please trust me!"]
+  },
+  {
+     "tag": "failed_exam",
+     "match": ["failed my exam", "failed test", "failed exam", "did badly on test", "did poorly on quiz"],
+     "response": ["It is just a test. It doesn't define you. You will do better next time!"]
+  },
+  {
+     "tag": "broke_up_with_girl",
+     "match": ["broke up with girlfriend", "broke up with my girl", "broke up with her"],
+     "response": ["Do you think it is her fault?"]
+  },
+  {
+     "tag": "broke_up_with_boy",
+     "match": ["broke up with boyfriend",  "broke up with him"],
+     "response": ["Do you think it is his fault?"]
+  },
+  {
+     "tag": "college_app",
+     "match": ["college app", "apply to college", "college application"],
+     "response": ["Keep on the grind! You will get into your dream school!", "Try your best! You will do it!"]
+  },
+  {
+     "tag": "will get rejected",
+     "match": ["will get rejected"],
+     "response": ["Keep up with your confidence! I have faith in you!", "You will get into your dream school!"]
+  },
+  {
+     "tag": "got rejected",
+     "match": ["got rejected"],
+     "response": ["Keep up with your confidence! I have faith in you!", "You will get into great schools!"]
+  },
+
+
+  {
+   "tag": "OK",
+   "match": ["ok", "okay", "ok then"],
+   "response": ["Was it helpful?", "Are you ok?"]
+  },
+  {
+   "tag": "Yes",
+   "match": ["was helpful", "yes it was", "yes","yep","yea"],
+   "response": ["Glad to hear it. Have a great day!", "Alright"]
+  },
+  {
+   "tag": "No",
+   "match": ["no", "hell no"],
+   "response": ["Sorry to hear that.", "Life continues..."]
+  },
+  {
+   "tag": "still_depressed",
+   "match": ["I am still sad","still depressed","still sad"],
+   "response": ["Come on! Life continues. Do not let one thing stop you! I trust you!"]
+  },
+  {
+   "tag": "thx",
+   "match": ["thx","thanks","thank you"],
+   "response": ["u are feeling better?"]
+  },
+  {
+   "tag": "k",
+   "match": ["k","yeet","lmao"],
+   "response": ["emmmmmm"]
+  },
+  {
+   "tag": "really",
+   "match": ["really","you sure"],
+   "response": ["Yes, I'm confident"]
+  },
+  {
+   "tag": "never_mind",
+   "match": ["nvm","never mind"],
+   "response": ["You sure?"]
+  }
+]

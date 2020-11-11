@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\mentalBot\\server\\trainDataAndModel\\model.tflearn"
+all_model_checkpoint_paths: "D:\\mentalBot\\server\\trainDataAndModel\\model.tflearn"
