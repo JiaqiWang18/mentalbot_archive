@@ -1,4 +1,4 @@
-from flask import Flask, request, abort
+from flask import Flask, request, abort, render_template
 from flask_cors import CORS
 from .chat import chat
 
@@ -9,6 +9,10 @@ CORS(app)
 
 @app.route("/")
 def main():
+    return render_template("index.html")
+
+@app.route("/chat")
+def chat_api():
     key = request.args.get('key')
     inp = request.args.get('input')
 
