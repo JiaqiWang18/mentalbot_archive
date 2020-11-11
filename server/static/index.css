@@ -1,0 +1,161 @@
+.appcontainer {
+  margin: 0 auto;
+  max-width: 35%;
+}
+html {
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+.sendTable {
+  background: #D7D7D7;
+}
+.cbox {
+  height: 450px;
+  min-height: 100%;
+  overflow-y: auto;
+  padding: 0 10px;
+  background: #f5f5f0;
+}
+.iboxth {
+  text-align: right;
+  width: 70%
+}
+.buttonth {
+  align-content: right;
+}
+.usertext {
+  margin: 2;
+  color: white
+}
+.bottext {
+  margin: 2;
+  color: black
+}
+.appname {
+   color: white;
+  padding: 15px;
+	padding-bottom:0px;
+	font-size:25;
+	font-weight:bold;
+}
+.statusbar {
+  background: #6A6A6A;
+}
+.aboutb {
+  border: 21px;
+  background: gray;
+  color: white;
+  padding: 10px
+}
+.ibox {
+  width: 100%;
+  height: 100%;
+  background-color: #D7D7D7;
+  border: none;
+  border-color: transparent;
+  outline: none;
+  padding-left: 10px;
+}
+.thking{
+  display: inline-block;
+  clear: both;
+  float: left;
+}
+.name {
+  padding-left: 0px;
+  float: left
+}
+.modalopen {
+  padding: 15px;
+  float: right
+}
+.sendButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+
+}
+.sendButton:focus {
+  background: #94FF00
+}
+.container {
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  padding: 0px 10px;
+  margin: 10px 0;
+  max-width: 60%;
+  display: inline-block;
+  clear: both;
+  float: left;
+}
+.usercontainer {
+  background-color: dodgerblue;
+  border-radius: 15px;
+  padding: 0px 10px;
+  margin: 10px 0;
+  max-width: 60%;
+  display: inline-block;
+  clear: both;
+  float: right;
+}
+.usercontainer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.time-right {
+  float: right;
+  color: white;
+}
+.time-left {
+  float: left;
+  color: #999;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
