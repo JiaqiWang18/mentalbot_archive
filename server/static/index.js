@@ -120,7 +120,7 @@ function getResponse() {
 
 	}
 	catch(err){
-		console.log("error")
+		console.error(err)
 		alert("bot is under maintenance, come back later")
 	}
 }
